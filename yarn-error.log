@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Steven\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Steven\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\dotnet;C:\ProgramData\chocolatey\bin;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Steven\AppData\Local\Microsoft\WindowsApps;C:\Users\Steven\.dotnet\tools;C:\Users\Steven\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\JetBrains Rider 2022.1.1\bin;C:\Users\Steven\Desktop\sonar-scanner-4.7.0.2747-windows\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\code\assignments\vite-rtk-query-main\package.json: Expected double-quoted property name in JSON at position 368
+      at JSON.parse (<anonymous>)
+      at C:\ProgramData\nvm\v19.1.0\node_modules\yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\ProgramData\nvm\v19.1.0\node_modules\yarn\lib\cli.js:310:30)
+      at C:\ProgramData\nvm\v19.1.0\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "pre-frontend-boilerplate",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+      "start": "vite",
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "serve dist",
+      "test": "vitest --run",
+      "test:watch": "vitest",
+      "lint": "eslint src --ext .ts,.tsx,.js,jsx",
+      "lint:fix": "eslint src --ext .ts,.tsx,.js,jsx --fix",
+     
+    },
+    "dependencies": {
+      "@reduxjs/toolkit": "^1.9.5",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "^8.1.1"
+    },
+    "devDependencies": {
+      "@testing-library/dom": "^9.3.1",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^14.0.0",
+      "@testing-library/user-event": "^14.4.3",
+      "@types/node": "^20.4.1",
+      "@types/react": "^18.2.14",
+      "@types/react-dom": "^18.2.6",
+      "@types/testing-library__jest-dom": "^5.14.7",
+      "@typescript-eslint/eslint-plugin": "^5.61.0",
+      "@typescript-eslint/parser": "^5.61.0",
+      "@vitejs/plugin-react": "^4.0.3",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^8.44.0",
+      "eslint-config-prettier": "^8.8.0",
+      "eslint-config-typescript": "^3.0.0",
+      "eslint-import-resolver-typescript": "^3.5.4",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-jsx-a11y": "^6.7.1",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-sort-keys-fix": "^1.1.2",
+      "jsdom": "^22.1.0",
+      "node-fetch": "^3.3.1",
+      "postcss": "^8.4.25",
+      "prettier": "^2.8.8",
+      "prettier-plugin-tailwindcss": "^0.3.0",
+      "serve": "^14.2.0",
+      "tailwindcss": "^3.3.2",
+      "typescript": "^5.1.5",
+      "vite": "^4.4.2",
+      "vitest": "^0.33.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
