@@ -1,6 +1,6 @@
 # Frontend Assignment
 
-This repository serves as a boilerplate for a frontend assignment using the following technologies: React, Redux Toolkit, and Tailwind CSS. It also includes examples showcasing the usage of Redux Toolkit (RTK) Slice and RTK Query API. The project utilizes json-server to simulate the consumption of an API with a fake `db.json` file. Please note that a more relevant file will be provided with the actual assignment, which will replace the current one.
+This repository serves as a boilerplate for a frontend assignment using the following technologies: React, Redux Toolkit, and Tailwind CSS. It also includes examples showcasing the usage of Redux Toolkit (RTK) Slice and RTK Query API.
 
 ## Getting Started
 
