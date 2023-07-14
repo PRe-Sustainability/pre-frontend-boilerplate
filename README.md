@@ -2,6 +2,8 @@
 
 This repository serves as a boilerplate for a frontend assignment using the following technologies: React, Redux Toolkit, and Tailwind CSS. It also includes examples showcasing the usage of Redux Toolkit (RTK) Slice and RTK Query API.
 
+The repository contains a simple counter app which you can use as a reference. The assignment concerns the addition of new functionality unrelated to the counter app.
+
 ## Getting Started
 
 To get started with the project, follow the steps below:
