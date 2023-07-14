@@ -28,6 +28,8 @@ yarn api
 
 This will start the json-server and provide a RESTful API interface to simulate backend data.
 
+You can replace the URL to the json-server with a link to the actual API in the assignment.
+
 ## Technologies Used
 
 The project includes the following technologies and libraries:
@@ -36,7 +38,6 @@ The project includes the following technologies and libraries:
 - Redux Toolkit (RTK): A package that simplifies Redux setup and reduces boilerplate code.
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom user interfaces.
 - Vitest: A JavaScript testing framework (You can change "Vitest" to "Jest" if desired).
-- json-server: A simple JSON-based server for simulating RESTful APIs.
 
 ## Development and Testing
 
